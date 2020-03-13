@@ -29,6 +29,7 @@ public class AppConfig implements WebMvcConfigurer {
         dataSourceBuilder.username("C##SWAYM");
         dataSourceBuilder.password("P##oracle");
         return dataSourceBuilder.build();
+        new Object();
     }
 	
 	@Bean
