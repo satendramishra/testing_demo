@@ -27,8 +27,8 @@ public class AppConfig implements WebMvcConfigurer {
         dataSourceBuilder.driverClassName("oracle.jdbc.OracleDriver");
         dataSourceBuilder.url("jdbc:oracle:thin:@//10.189.201.46:1611/ORCLCDB");
         dataSourceBuilder.username("C##SWAYM");
-        dataSourceBuilder.password("P##oracle");hfdhfdhdfhdfhdfhdfhdh
-        return dataSourceBuilder.build();thfhfhhfhfh
+        dataSourceBuilder.password("P##oracle");
+        return dataSourceBuilder.build();
     }
 	
 	@Bean
